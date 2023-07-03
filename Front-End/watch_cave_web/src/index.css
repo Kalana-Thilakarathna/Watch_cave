@@ -17,10 +17,30 @@ select:focus{
 }
 
 /* tailwind classes */
+.hoveres{
+    @apply hidden
+}
+
+.hovered:hover .hoveres{
+    @apply flex-colo
+}
+
 .flex-colo{
     @apply flex flex-col justify-center items-center;
 }
 
 .flex-raws{
     @apply flex flex-row justify-center items-center;
+}
+
+.flex-btn{
+    @apply flex justify-between items-center;
+}
+
+.transitions{
+    @apply transition duration-300 ease-in;
+}
+
+.zIndex{
+    z-index: 1000;
 }
