@@ -1,5 +1,7 @@
 import React from 'react'
+import LOGO from './logo.png'
 import { Link } from 'react-router-dom'
+
 
 function NavBar() {
   return (
@@ -8,8 +10,23 @@ function NavBar() {
         <div className="container mx-auto py-6 px-2 lg:grid gap-10 grid-cols-7 justify-between items-center">
           <div className="col-span-1 lg:block hidden">
             <Link to="/">
-              <img src="public/Images/logo.jpg" alt="logo" className="w-full h-12 object-contain" />
+              <img src={LOGO} alt="logo" className="w-full h-25 object-contain" />
             </Link>
+          </div>
+          <div className="col-span-1 lg:block hidden">
+            <p>
+              Movies
+            </p>
+          </div>
+          <div className="col-span-1 lg:block hidden">
+            <p>
+              About Us
+            </p>
+          </div>
+          <div className="col-span-1 lg:block hidden">
+            <p>
+              Contact Us
+            </p>
           </div>
         </div>
       </div>
