@@ -14,7 +14,7 @@ function NavBar() {
     }
   return (
     <>
-      <div className="bg-main shadow-md sticky top-0 z-20">
+      <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400  shadow-md sticky top-0 z-20">
         <div className="container mx-auto py-6 px-2 lg:grid gap-10 grid-cols-7 justify-between items-center">
 
           {/* logo section */}
