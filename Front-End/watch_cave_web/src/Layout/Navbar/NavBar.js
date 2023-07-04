@@ -1,8 +1,8 @@
 import React from 'react'
 import LOGO from '../../Images/logo.jpg'
 import { Link,NavLink } from 'react-router-dom'
-import { ImSearch } from 'react-icons/im'
-
+import { ImSearch,ImHeart } from 'react-icons/im'
+import { RiUser5Fill } from 'react-icons/ri'
 
 function NavBar() {
     const hover = "hover:text-subMain transition text-white";
@@ -36,15 +36,30 @@ function NavBar() {
                 <input 
                   type="text"
                   placeholder="Search movie in here"
-                  className="font-medium placeholder:text-border text-sm w-11/12 h-12 bg-transparent border-none px-2 text-balance text-black"
+                  className="font-bold placeholder:text-border text-sm w-11/12 h-12 bg-transparent border-none px-2 text-balance text-black"
                 />
               </form>
           </div>
 
           {/* menus */}
-          <div className="col-span-3 font-medium text-sm hidden xl:gap-14 2xl: justify-between lg:flex xl:justify-end items-center">
+          <div className="col-span-3 font-bold text-sm hidden xl:gap-14 2xl: justify-between lg:flex xl:justify-end items-center">
             <NavLink to="/movies" className={Hover}>
               Movie
+            </NavLink>
+            <NavLink to="/about-us" className={Hover}>
+              About Us
+            </NavLink>
+            <NavLink to="/contact-us" className={Hover}>
+              Contact Us
+            </NavLink>
+            <NavLink to="/login" className={Hover}>
+              <RiUser5Fill className="w-8 h-8"/>
+            </NavLink>
+            <NavLink to="/favorite" className={Hover + ' relative'}>
+              <ImHeart className="w-6 h-6"/>
+              <div className="w-5 h-5 flex-colo rounded-full text-xs bg-subMain text-white absolute -top-3 -right-3">
+                3
+              </div>
             </NavLink>
           </div>
         </div>
