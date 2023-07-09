@@ -2,9 +2,9 @@ import React from 'react'
 import { Swiper,SwiperSlide } from 'swiper/react'
 import { Movies } from '../../Screens/Data/MovieData'
 import { Autoplay } from 'swiper'
-import FlexMoviesItems from './FlexMoviesItems'
 import { Link } from 'react-router-dom'
 import {FaHeart} from 'react-icons/fa'
+import FlexMoviesItems from '../FlexMoviesItems'
 
 function Banner() {
   return (
