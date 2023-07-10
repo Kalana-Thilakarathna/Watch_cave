@@ -7,7 +7,7 @@ function Promos() {
       <div className="lg:grid lg:grid-cols-2 lg:gap-10 items-center">
         <div className="flex lg:gap-10 gap-6 flex-col">
           <h1 className="xl:text-3xl text-xl capitalize font-sans font-medium xl:leading-relaxed">
-            Download Your Movies <br/> Enjoy Offline
+            Download Your Movies from your mobile<br/> Comming Soon <br/>  Watch Cave Mobile App
           </h1> 
           <p className="text-text text-sm xl:text-base leading-6 xl:leading-8">
             asdflkadkgnada
