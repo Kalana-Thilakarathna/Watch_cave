@@ -28,7 +28,7 @@ export const Movies = [
     {
         name: 'Mario Bros',
         desc: '',
-        titleImage: 'Images/Movies/m3.jpg',
+        titleImage: 'm3.jpg',
         image: 'Images/Movies/m3.jpg',
         category: 'Adventeurs',
         language: 'Japanese',
@@ -41,7 +41,7 @@ export const Movies = [
     {
         name: 'Fast X',
         desc: '',
-        titleImage: 'Images/Movies/m4.jpg',
+        titleImage: 'm4.jpg',
         image: 'Images/Movies/m4.jpg',
         category: 'Action',
         language: 'English',
@@ -54,7 +54,7 @@ export const Movies = [
     {
         name: 'Elemental',
         desc: '',
-        titleImage: 'Images/Movies/m5.jpg',
+        titleImage: 'm5.jpg',
         image: 'Images/Movies/m5.jpg',
         category: 'Western',
         language: 'English',
@@ -67,7 +67,7 @@ export const Movies = [
     {
         name: 'SUZUME',
         desc: '',
-        titleImage: 'Images/Movies/m6.jpg',
+        titleImage: 'm6.jpg',
         image: 'Images/Movies/m6.jpg',
         category: 'Romantic',
         language: 'Japanese',
@@ -80,7 +80,7 @@ export const Movies = [
     {
         name: 'Spider Man : Across Multivers',
         desc: '',
-        titleImage: 'Images/Movies/m7.jpg',
+        titleImage: 'm7.jpg',
         image: 'Images/Movies/m7.jpg',
         category: 'Western',
         language: 'English',
