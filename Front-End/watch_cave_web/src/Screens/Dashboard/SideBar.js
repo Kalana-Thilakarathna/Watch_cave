@@ -73,7 +73,12 @@ function SideBar({children}) {
                     }
 
                 </div>
-                <div className="col-span-6 rounded-md bg-dry border border-gray-800 p-6">
+                <div 
+                data-aos ="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="10"
+                data-aos-offset="200"
+                className="col-span-6 rounded-md bg-dry border border-gray-800 p-6">
                     {children}
 
                 </div>
