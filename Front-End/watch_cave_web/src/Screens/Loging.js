@@ -11,6 +11,7 @@ function Loging() {
           alt="logo" 
           className="w-full h-12 object-contain">
           </img>
+
           <Input 
           label="Email" 
           placeholder="WatchCave@gmail.com" 
@@ -24,6 +25,8 @@ function Loging() {
           placeholder="********" 
           type="password" 
           bg={true} >
+          
+        
           
           </Input>
 
@@ -43,9 +46,12 @@ function Loging() {
         </div>
 
       </div>
+      
+
     </Layout>
-    <div>Loging</div>
-  )
+
+    
+  );
 }
 
 export default Loging

@@ -54,7 +54,7 @@ function Register() {
 
       </div>
     </Layout>
-    <div>Loging</div>
+   
   )
 }
 
