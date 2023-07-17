@@ -41,9 +41,11 @@ function ContactUs() {
                 <h5 className="text-subMain text-2xl font-semibold mb-2">
                   {item.title}
                 </h5>
-                <h5 className="text-subMain text-xl mb-2">
-                  {item.contact}
-                </h5>
+                <p className="text-text mb-0 text-sm leading-7">
+                  <a href={`mailto:${item.contact}`} className='text-blue-600'>
+                    {item.contact}
+                  </a>
+                </p>
                 
               </div>
             ))
