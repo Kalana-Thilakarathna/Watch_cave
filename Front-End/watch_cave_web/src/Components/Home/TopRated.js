@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Titles from '../Titles'
-import {BsBookmarkStarFill, BsChevronBarLeft, BsChevronRight} from 'react-icons/bs'
+import {BsBookmarkStarFill, BsChevronRight} from 'react-icons/bs'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper'
 import Movies from '../../Screens/Data/MovieData'
@@ -52,7 +52,7 @@ function TopRated() {
           <button className={classNames} ref={(node) => setPrevtEl(node)}>
             <BsChevronLeft />
           </button>
-          <button className={classNames} ref={(node) => setPrevtEl(node)}>
+          <button className={classNames} ref={(node) => setNextEL(node)}>
             <BsChevronRight />
           </button>
         </div>

@@ -25,7 +25,7 @@ function Promos() {
             </div>
           </div>
         </div>
-        <img src="/Images/mobile.png" alt="Mobile App" className="w-full object-contain" />
+         <img src="/Images/mobile.png" alt="Mobile App" className="w-full object-contain" />
       </div>
     </div>
   )
