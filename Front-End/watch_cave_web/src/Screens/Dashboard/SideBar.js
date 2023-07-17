@@ -3,10 +3,10 @@ import {BsFillGridFill} from "react-icons/bs";
 import { FiSettings } from 'react-icons/fi';
 import { RiLockPasswordLine } from 'react-icons/ri';
 import {FaListAlt,FaUsers,FaHeart} from "react-icons/fa";
-import { RiMovie2Fill,RiLockPasswordLine } from 'react-icons/ri';
+import {RiMovie2Fill} from 'react-icons/ri';
 import {HiViewGridAdd} from "react-icons/hi";
 import Layout from '../../Layout/Layout';
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 function SideBar({children}) {
     const SideLinks =[
@@ -54,9 +54,9 @@ function SideBar({children}) {
     const active ="bg-dryGray text-subMain"
     const hover = "hover:text-white hover:bg-main"
     const inActive = "rounded font-medium text-sm transitions flex gap-3 items-center p-4"
-    const Hover = ({isActive})=>{
+    const Hover = ({isActive})=>
         isActive ?`${active} ${inActive}` : `${inActive} ${hover}`;
-    }
+    
   return (
     <Layout>
         <div className="min-h-screen container mx-auto px-2">

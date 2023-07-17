@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from "../Layout/Layout";
 import { Link } from 'react-router-dom';
+import { Input } from '../Components/UsedInputs';
+import { FiLogIn } from 'react-icons/fi';
 
 function Loging() {
   return (
