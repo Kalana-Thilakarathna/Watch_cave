@@ -16,15 +16,39 @@ function AboutUs() {
               </h3>
               <div className="mt-3 text-sm leading-8 text-white">
               <p>
-                Welcome to Watch Cave, your ultimate destination for free movie streaming. Our dedicated team of developers, including Kalana Thilakarathna, Lasantha Chulabaya, Harshana, Nadun, and Sahan, has created a platform where you can enjoy a vast collection of films without any cost. With Watch Cave, there are no restrictions or hidden fees - just pure cinematic entertainment at your fingertips. Explore our diverse library spanning various genres and eras, from timeless classics to the latest blockbusters. Whether you're in the mood for heartwarming romance, thrilling action, or thought-provoking dramas, we have something for everyone. Sit back, relax, and immerse yourself in the world of movies without breaking the bank. Join us at Watch Cave and let the streaming journey begin!
+                Welcome to Watch Cave, your go-to destination for unlimited movie streaming! Our dedicated team of developers, including Kalana Thilakarathna, Lasantha Chulabaya, Harshana, Nadun, and Sahan, have come together to create a platform where you can enjoy your favorite movies for free. With Watch Cave, there are no restrictions or hidden fees - just pure cinematic entertainment at your fingertips. Explore our vast library of films spanning various genres, from timeless classics to the latest blockbusters. Whether you're in the mood for heartwarming romance, thrilling action, or thought-provoking dramas, we have something for everyone. Sit back, relax, and immerse yourself in the world of movies without breaking the bank. Join us at Watch Cave and let the streaming journey begin!
               </p>
-              <p>
-                 At Watch Cave, we believe that everyone should have access to quality entertainment without financial barriers. Our platform is designed to provide you with a seamless streaming experience, allowing you to easily navigate, search for your favorite films, and discover new gems. We meticulously curate our library to cater to a wide range of tastes, ensuring that there's something for every movie enthusiast. Join our vibrant community of film lovers and indulge in the magic of cinema. Watch Cave is your gateway to limitless movie enjoyment, so start streaming today and let the cinematic adventure unfold. Welcome to Watch Cave, where movies come alive.
-              </p>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6 mt-8">
+                <div className="p-8 bg-dry rounded-lg">
+                  <span className="text-3xl block font-extrabold">
+                    10K
+                  </span>
+                  <h4 className="text-lg font-bold mb-1">
+                    Listed Movies
+                  </h4>
+                  <p className="mb-0 text-text leading-7 text-sm">
+                    An eclectic movie collection, spanning genres
+                  </p>
+                </div> 
+                <div className="p-8 bg-dry rounded-lg">
+                  <span className="text-3xl block font-extrabold">
+                    8K
+                  </span>
+                  <h4 className="text-lg font-bold mb-1">
+                    Lovely Community
+                  </h4>
+                  <p className="mb-0 text-text leading-7 text-sm">
+                      A vibrant community united by cinematic passion.
+                  </p>
+                </div>
+              </div>
+                  
             </div>
-            </div>
+            <img src="/Images/aboutus.jpg" alt="aboutus" className="w-full xl:block hidden h-header rounded-lg object-cover"/>
             
           </div>
+          
         </div>
       </div>
     </Layout>
