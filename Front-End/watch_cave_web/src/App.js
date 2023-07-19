@@ -12,6 +12,9 @@ import Register from './Screens/Register'
 import WatchPage from './Screens/WatchPage'
 import Password from './Screens/Dashboard/Password'
 import Aos from 'aos'
+import FavoritesMovies from './Screens/Dashboard/FavoritesMovies'
+
+
 
 
 
@@ -29,6 +32,7 @@ function App() {
       <Route path="/register" element = {<Register/>}/>
       <Route path="/profile" element = {<Profile/>}/>
       <Route path="/password" element = {<Password/>}/>
+      <Route path="/Favorites" element = {<FavoritesMovies/>}/>
       <Route path="*" element = {<NotFound/>} />
     </Routes>
   )

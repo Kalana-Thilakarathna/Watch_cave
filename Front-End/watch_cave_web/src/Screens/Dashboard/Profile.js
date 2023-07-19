@@ -1,6 +1,7 @@
 import React from "react";
 import SideBar from "./SideBar";
 import Uploder from "../../Components/Uploder";
+import { Input } from "../../Components/UsedInputs";
 
 function Profile(){
     return(
