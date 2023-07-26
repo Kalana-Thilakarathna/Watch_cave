@@ -8,7 +8,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { FiSmartphone } from "react-icons/fi";
 
-function categories (){
+function Categories (){
     const [modalOpen,setModalOpen]=useState(false);
     const[category,setCategory]=useState();
 
@@ -55,4 +55,4 @@ function categories (){
 
 }
 
-export default categories ;
+export default Categories ;

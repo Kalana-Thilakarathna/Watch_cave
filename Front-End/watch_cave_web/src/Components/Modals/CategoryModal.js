@@ -23,7 +23,7 @@ function CategoryModal({modalOpen,setModelOpen,category}){
              onClick={() => setModelOpen(false)}
              className="w-full flex-rows gap-4 py-3 text-lg transitions hover:bg-dry border-2 border-subMain rounded bg-subMain text-white">
                 
-                {ategory ? " update" : "Add"}                 
+                {category ? " update" : "Add"}                 
                   
                                   
                                 
@@ -34,3 +34,4 @@ function CategoryModal({modalOpen,setModelOpen,category}){
     )
 
 }
+export default CategoryModal;
