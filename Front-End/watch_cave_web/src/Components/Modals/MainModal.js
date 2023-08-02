@@ -3,7 +3,7 @@ import React, { Fragment, useRef } from "react";
 import{IoClose} from "react-icons/io5";
 
 function MainModal ({modalOpen,setModalOpen,children}){
-    constcancelButtonRef=useRef()
+    const cancelButtonRef=useRef()
     return(
         <>
         <Transition show={modalOpen} as ={Fragment} appear>
@@ -53,4 +53,4 @@ function MainModal ({modalOpen,setModalOpen,children}){
 }
 
 
-export default MainModal
+export default MainModal;

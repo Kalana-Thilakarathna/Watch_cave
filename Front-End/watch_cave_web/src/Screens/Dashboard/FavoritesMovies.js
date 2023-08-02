@@ -23,4 +23,4 @@ function FavoritesMovies(){
 
     )
 }
-export default FavoritesMovies
+export default FavoritesMovies;

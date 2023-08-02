@@ -53,7 +53,7 @@ const Rows =(data,i,users,OnEditFunction) =>  {
                
                        
                          <button
-                         onClick={()=> onEditFunction(data)}
+                         onClick={()=> OnEditFunction(data)}
 
                          className="border border-border bg-dry flex-rows gap-2 text-border rounded py-1 px-2">
                         Edit<FaEdit className="text-green-500"/>

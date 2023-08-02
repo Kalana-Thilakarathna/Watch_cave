@@ -13,6 +13,11 @@ import WatchPage from './Screens/WatchPage'
 import Password from './Screens/Dashboard/Password'
 import Aos from 'aos'
 import FavoritesMovies from './Screens/Dashboard/FavoritesMovies'
+import MoviesList from './Screens/Dashboard/Admin/MovieList'
+import Dashboard from './Screens/Dashboard/Admin/DashBorad'
+import Categories from './Screens/Dashboard/Admin/Categories'
+
+
 
 
 
@@ -33,9 +38,14 @@ function App() {
       <Route path="/profile" element = {<Profile/>}/>
       <Route path="/password" element = {<Password/>}/>
       <Route path="/Favorites" element = {<FavoritesMovies/>}/>
+      <Route path="/MoviesList" element = {<MoviesList/>}/>
+      <Route path="/Dashboard" element = {<Dashboard/>}/>
+     
+      
+
       <Route path="*" element = {<NotFound/>} />
     </Routes>
   )
 }
 
-export default App
+export default App;
