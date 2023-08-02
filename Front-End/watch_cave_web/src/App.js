@@ -4,7 +4,7 @@ import HomeScreen from './Screens/HomeScreen'
 import AboutUs from './Screens/AboutUs'
 import NotFound from './Screens/NotFound'
 import ContactUs from './Screens/ContactUs'
-import MoviesPage from './Screens/Movies'
+import Movies from './Screens/Movies'
 import Login from './Screens/Loging'
 import Profile from './Screens/Dashboard/Profile'
 import SingleMovie from './Screens/SingleMovie'
@@ -25,7 +25,7 @@ function App() {
       <Route path="/" element = {<HomeScreen/>} />
       <Route path="/about-us" element = {<AboutUs/>} />
       <Route path="/contact-us" element = {<ContactUs/>} />
-      <Route path="/movies" element = {<MoviesPage/>} />
+      <Route path="/movies" element = {<Movies/>} />
       <Route path="/movie/:id" element = {<SingleMovie/>}/>
       <Route path="/watch/:id" element = {<WatchPage/>}/>
       <Route path="/login" element = {<Login/>}/>
