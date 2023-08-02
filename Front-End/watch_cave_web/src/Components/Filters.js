@@ -36,7 +36,7 @@
 //         {
 //             value:category,
 //             onChange:setCatergory,
-//             items:categoriesDa
+//             items:CategoriesData
 //         }
 //     ]
 //   return (
