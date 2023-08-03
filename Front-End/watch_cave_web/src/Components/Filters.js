@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { CategoriesData } from '../Screens/Data/CategoriesData'
 
 const YearData = [
     {title: "Sort By Year"},
@@ -38,10 +39,26 @@ function Filters() {
             onChange:setCatergory,
             items:CategoriesData
         },
-        
+        {
+            value: year,
+            onChange:setYear,
+            items: YearData
+        },
+        {
+            value:times,
+            onChange: setTimes,
+            items: TimesData
+        },
+        {
+            value: rates,
+            onChange:setRates,
+            items: RatesData
+        }  
     ]
   return (
-
+        <div className="my-6 bg-dry text-dryGray border-gray-800 grid md:grid-cols-4 grid-cols-2 lg:gap-12 gap-2 rounded p-6">
+            
+        </div>
   )
 }
 
