@@ -22,4 +22,4 @@ function FlexMoviesItems({movie}) {
   )
 }
 
-export default FlexMoviesItems
+export default FlexMoviesItems ;

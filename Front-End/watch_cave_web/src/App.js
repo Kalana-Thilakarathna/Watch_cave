@@ -16,6 +16,7 @@ import FavoritesMovies from './Screens/Dashboard/FavoritesMovies'
 import MoviesList from './Screens/Dashboard/Admin/MovieList'
 import Dashboard from './Screens/Dashboard/Admin/DashBorad'
 import Categories from './Screens/Dashboard/Admin/Categories'
+import Users from './Screens/Dashboard/Admin/Users'
 
 
 
@@ -40,7 +41,9 @@ function App() {
       <Route path="/Favorites" element = {<FavoritesMovies/>}/>
       <Route path="/MoviesList" element = {<MoviesList/>}/>
       <Route path="/Dashboard" element = {<Dashboard/>}/>
-     
+      <Route path="/Categories" element = {<Categories/>}/>
+      {/* <Route path="/Users" element = {<Users/>}/> */}
+
       
 
       <Route path="*" element = {<NotFound/>} />

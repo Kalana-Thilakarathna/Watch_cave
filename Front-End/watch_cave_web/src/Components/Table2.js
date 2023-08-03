@@ -58,7 +58,7 @@ const Rows =(data,i,users,OnEditFunction) =>  {
                          className="border border-border bg-dry flex-rows gap-2 text-border rounded py-1 px-2">
                         Edit<FaEdit className="text-green-500"/>
                         </button>
-                        <button className="bg-subMain text-white rounded flex-colo w-6 h-6">
+                        <button className="bg-subMain text-white rounded flex-rows w-6 h-6">
                         <MdDelete/>
                          </button>
                        </td>
