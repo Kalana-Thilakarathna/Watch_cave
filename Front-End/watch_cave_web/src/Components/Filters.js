@@ -82,13 +82,6 @@ function Filters() {
                                                         <span className={`block truncated ${selected ? 'font-semibold':'font-normal'}`}> 
                                                             {iterm.title}
                                                         </span>
-                                                        {
-                                                            // selected ? (
-                                                            //     <span className="absolute inset-y-0 left-0 flex items-center pl-3 ">
-                                                            //         <p>e</p>
-                                                            //     </span>
-                                                            // )
-                                                        }
                                                         </>
                                                     )
                                                 }
