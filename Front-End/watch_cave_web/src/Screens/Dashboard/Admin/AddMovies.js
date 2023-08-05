@@ -1,13 +1,13 @@
 import React from 'react'
-import {MdDelete} from "react-icons/md"
-import {FaEdit} from " react -icons/fa"
-import{UsersData} from "../../Data/MovieData"
-import { Input } from '../../Components/UsedInputs'
-// import SideBar from './SideBar'
+import {MdDelete} from 'react-icons/md'
+import {FaEdit} from 'react-icons/fa'
+import UsersData from '../../Data/MovieData'
+import { Input } from '../../../Components/UsedInputs'
+import SideBar from '../SideBar'
 import Uploder from '../../../Components/Uploder'
 import { Message, Select } from '../../../Components/UsedInputs'
 import { CategoriesData } from '../../Data/CategoriesData'
-import {imUpload} from "react-icons/im"
+import {imUpload} from 'react-icons/im'
 
 
 
@@ -91,7 +91,7 @@ function AddMovies() {
                              <div key={i} 
                              className="p-2 italic text-xs text-text rounded flex-colo bg-main border border-border">
                               <img 
-                              src={'/images/$ {user.image ? user.image : "user.png"}'}
+                              src={`/Images/Movies/${user.image ? user.image : 'user.png'}`}
                                alt={user.fullName} 
                                className="w-full h-24 object-cover rounded mb-2"/> 
                                <p>{user.fullName}</p>
