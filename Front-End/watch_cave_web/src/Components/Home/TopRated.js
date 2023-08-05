@@ -30,7 +30,7 @@ function TopRated() {
             Movies.map((movie, index) => (
               <SwiperSlide key={index}>
                 <div className="p-4 h-rate  border border-border bg-dry rounded-lg overflow-hidden">
-                  <img src ={`Images/Movies/${movie.titleImage}`} alt={movie.name} className="w-full h-full object-cover rounded-lg"/>
+                  <img src ={`Images/Movies/${movie.image}`} alt={movie.name} className="w-full h-full object-cover rounded-lg"/>
                 </div>
                 <div className="px-4 flex-colo transition gap-6 text-center absolute bg-black bg-opacity-70 top-0 left-0 right-0 bottom-0">
                   <button className="w-12 h-12 flex-colo transition hover:bg-subMain rounded-full bg-white bg-opacity-30 text-white">
