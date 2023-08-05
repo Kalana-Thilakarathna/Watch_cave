@@ -2,6 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment, useRef } from "react";
 import{IoClose} from "react-icons/io5";
 
+
 function MainModal ({modalOpen,setModalOpen,children}){
     const cancelButtonRef=useRef()
     return(

@@ -17,8 +17,7 @@ import MoviesList from './Screens/Dashboard/Admin/MovieList'
 import Dashboard from './Screens/Dashboard/Admin/DashBorad'
 import Categories from './Screens/Dashboard/Admin/Categories'
 import Users from './Screens/Dashboard/Admin/Users'
-
-
+import AddMovies from './Screens/Dashboard/Admin/AddMovies'
 
 
 
@@ -42,7 +41,8 @@ function App() {
       <Route path="/MoviesList" element = {<MoviesList/>}/>
       <Route path="/Dashboard" element = {<Dashboard/>}/>
       <Route path="/Categories" element = {<Categories/>}/>
-      {/* <Route path="/Users" element = {<Users/>}/> */}
+     {/* <Route path="/Users" element = {<Users/>}/> */}
+      <Route path="/AddMovie" element = {<AddMovies/>}/>
 
       
 
