@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {MdDelete} from 'react-icons/md'
 import {FaEdit} from 'react-icons/fa'
 import UsersData from '../../Data/MovieData'
@@ -12,8 +12,19 @@ import {imUpload} from 'react-icons/im'
 
 
 function AddMovies() {
+  const [modalOpen, setModalOpen]= useState(false);
+  const [cast, setCast] = useState(null);
+
+  useEffect(() => {
+    if(modalOpen=== false) {
+      setCast();
+    }
+
+   }, {modalOpen});
+
   return (
     <SideBar>
+      <CastsModal modalOpen={modalOpen} setModalOpen={setModalOpen} cast={cast} />
         <div className="flex flex-col gap-6">
             <h2 className="text-xl font-bold">Create Movie</h2>
             <div className="w-full grid md:grid-cols-2 gap-6">
@@ -83,7 +94,7 @@ function AddMovies() {
                     </div>
                     {/*CASTS*/}
                     <div className=" w-full grid lg:grid-cols-2 gap-6 items-start">
-                      <button className="w-full py-4 bg-main border border-submain border-dashed text-white rounded">
+                      <button onClick={() ==> setModalOpen(true)} className="w-full py-4 bg-main border border-submain border-dashed text-white rounded">
                         Add cast
                         </button>
                         <div className=" grid 2xl:grid-cols-4-lg:grid-cols-3 sm:grid-cols-4 grid-cols-2 gap-4 ">
