@@ -1,10 +1,10 @@
 import React from 'react'
-import {BsFillGridFill} from "react-icons/bs";
+import {BsFillGridFill} from 'react-icons/bs';
 import { FiSettings } from 'react-icons/fi';
 import { RiLockPasswordLine } from 'react-icons/ri';
-import {FaListAlt,FaUsers,FaHeart} from "react-icons/fa";
+import {FaListAlt,FaUserAlt,FaHeart} from 'react-icons/fa';
 import {RiMovie2Fill} from 'react-icons/ri';
-import {HiViewGridAdd} from "react-icons/hi";
+import {HiViewGridAdd} from 'react-icons/hi';
 import Layout from '../../Layout/Layout';
 import {NavLink} from 'react-router-dom';
 
@@ -33,7 +33,7 @@ function SideBar({children}) {
         {
             name:"Users",
             link:"/users",
-            icon:FaUsers,
+            icon:FaUserAlt,
         },
         {
             name:"Update Profile",
