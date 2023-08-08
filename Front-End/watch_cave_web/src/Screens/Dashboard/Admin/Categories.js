@@ -20,7 +20,7 @@ function Categories (){
     }
 
     useEffect(() =>{
-       if (modalOpen==false) {
+       if (modalOpen===false) {
         setCategory();
      }
 
