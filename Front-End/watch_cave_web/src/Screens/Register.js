@@ -37,7 +37,7 @@ function Register() {
           
           </Input>
 
-          <Link to="/dashbord" className="bg-subMain transitions hover:bg-main flex-rows gap-4 text-white p-4 rounded-lg w-full">
+          <Link to="/dashboard" className="bg-subMain transitions hover:bg-main flex-rows gap-4 text-white p-4 rounded-lg w-full">
 
             <FiLogIn/> Sign Up
           
