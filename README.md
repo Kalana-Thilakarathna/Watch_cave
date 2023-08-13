@@ -31,7 +31,6 @@ We have used the following technologies for our web application:
 
 - **Front-End**: HTML, CSS (Tailwind CSS), and React
 - **Back-End**: Node.js (Express), MongoDB
-- **Full Stack**: MERN Stack
 
 ## The Team
 
@@ -41,7 +40,7 @@ We are a team of five students from ICT department:
 - G.H.M.L.Chulabaya
 - S.N.M. Harshana Prab
 - W. M. N. T Wansooriya
-- R.G.C.K.B. Thilakarathna (Kalana Thilakarathna)
+- R.G.C.K.B. Thilakarathna
 
 This project was done for a university project only.
 
