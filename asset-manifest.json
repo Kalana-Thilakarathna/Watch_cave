@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Watch_cave/static/css/main.ee782318.css",
+    "main.js": "/Watch_cave/static/js/main.b9e5ac11.js",
+    "static/media/logo.jpg": "/Watch_cave/static/media/logo.a57ea9b50ec1117d5cab.jpg",
+    "index.html": "/Watch_cave/index.html",
+    "main.ee782318.css.map": "/Watch_cave/static/css/main.ee782318.css.map",
+    "main.b9e5ac11.js.map": "/Watch_cave/static/js/main.b9e5ac11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee782318.css",
+    "static/js/main.b9e5ac11.js"
+  ]
+}
