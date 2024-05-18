@@ -7,46 +7,49 @@ import {RiMovie2Fill} from 'react-icons/ri';
 import {HiViewGridAdd} from 'react-icons/hi';
 import Layout from '../../Layout/Layout';
 import {NavLink} from 'react-router-dom';
+//change done to test
+
+
 
 function SideBar({children}) {
     const SideLinks =[
         {
-            name:"Dashboard",
+            name:"Dashboarddd",
             link:"/dashboard",
             icon:BsFillGridFill
         },
         {
-            name:"Movies List",
+            name:"Movies Listtt",
             link:"/movieslist",
             icon:FaListAlt,
         },
         {
-            name:"Add Movie",
+            name:"Add Movieee",
             link:"/addmovie",
             icon:RiMovie2Fill,
         },
         {
-            name:"Categories",
+            name:"Categoriesss",
             link:"/categories",
             icon:HiViewGridAdd,
         },
         {
-            name:"Users",
+            name:"Usersss",
             link:"/users",
             icon:FaUserAlt,
         },
         {
-            name:"Update Profile",
+            name:"Update Profileee",
             link:"/profile",
             icon:FiSettings,
         },
         {
-            name:"Favorites Movies",
+            name:"Favorites Moviesss",
             link:"/favorites",
             icon:FaHeart,
         },
         {
-            name:"Change Password",
+            name:"Change Passworddd",
             link:"/password",
             icon:RiLockPasswordLine,
         },
